@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <NavBar />
+    <router-view />
+  </div>
+  </template>
+  
+  <script setup>
+  
+  import NavBar from "./components/NavBar.vue";
+  </script>
+  
+  <style>
+  body{
+    background-color: #215F3A ;
+  }
+  </style>

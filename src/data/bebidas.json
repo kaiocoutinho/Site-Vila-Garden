@@ -1,0 +1,26 @@
+[
+    {
+        "cerveja": "Heineken",
+        "valor": 12.00
+    },
+    {
+        "cerveja": "Amstel",
+        "valor": 8.00
+    },
+    {
+        "cerveja": "Spanten",
+        "valor": 14.00
+    },
+    {
+        "cerveja": "Corona",
+        "valor": 16.00
+    },
+    {
+        "cerveja": "Stella",
+        "valor": 14.00
+    },
+    {
+        "cerveja": "Budweiser",
+        "valor": 14.00
+    }
+]
