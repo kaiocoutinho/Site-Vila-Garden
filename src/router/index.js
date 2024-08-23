@@ -18,9 +18,9 @@ const router = createRouter({
       component: () => import("../views/Cardapio.vue"),
     },
     {
-      path: "/localização",
-      name: "localicação",
-      component: () => import("../views/Localizacao.vue"),
+      path: "/CardBebidas",
+      name: "CardBebidas",
+      component: () => import("../components/CardBebidas.vue"),
     },
   ],
 });

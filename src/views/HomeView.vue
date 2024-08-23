@@ -1,3 +1,10 @@
 <template>
-    <h1>Ola mundo</h1>
+    <Footer />
 </template>
+
+
+<script setup>
+import Footer from '../components/footer/Footer.vue';
+
+
+</script>

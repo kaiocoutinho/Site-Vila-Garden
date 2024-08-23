@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "img": "",
+        "name": "Comigo ninguém pode",
+        "descricao":"Limão, cachaça e leite condensado.",
+        "valor": "38,90"
+    },
+    {
+        "id": 2,
+        "img": "",
+        "name": "Dedo de moça",
+        "descricao":"Frutas vermelhas, cachaça e leite condesado.",
+        "valor": "38,90"
+    },
+    {
+        "id": 3,
+        "img": "",
+        "name": "Trepadeira",
+        "descricao":"Limão, vodka, morango, maracujá e açúcar.",
+        "valor": "38,90"
+    },
+    {
+        "id": 4,
+        "img": "",
+        "name": "Dama da noite",
+        "descricao":"Gin, maracujá, suco de laranja.",
+        "valor": "38,90"
+    }, 
+    {
+        "id": 5,
+        "img": "",
+        "name": "Costela de Adão",
+        "descricao":"Cachaça, abacaxi, e leite condensado.",
+        "valor": "38,90"
+        
+
+    },
+    {
+        "id": 6,
+        "img": "",
+        "name": "Chifre de veado",
+        "descricao":"Abacaxi, vodka, limão e espuma de gengibre.",
+        "valor": "38,90"
+    },
+    {
+        "id": 7,
+        "img": "",
+        "name": "Maria sem vergonha",
+        "descricao":"Vodka, suco de abacaxi, xarope de caruçau blu, soda limão.",
+        "valor": "38,90"
+    },
+    {
+        "id": 8,
+        "img": "",
+        "name": "Pau d'água",
+        "descricao":"Gin, morango, xarope de cramberry e tabasco.",
+        "valor": "38,90"
+    },
+    {
+        "id": 9,
+        "img": "",
+        "name": "Espada de São Jorge",
+        "descricao":"Limão, vodka, suco de laranja e espuma de gengibre.",
+        "valor": "38,90"
+    },
+    {
+        "id": 10,
+        "img": "",
+        "name": "Caipirinha",
+        "descricao":"Limão, gelo, açúcar e cachaça.",
+        "valor": "26,90"
+    },
+    {
+        "id": 11,
+        "img": "",
+        "name": "Caipivodka",
+        "descricao":"Limão, gelo, açúcar e vodka.",
+        "valor":"26,90"
+    }
+]

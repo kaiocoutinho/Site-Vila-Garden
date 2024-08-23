@@ -1,9 +1,8 @@
 <template>
     <div class="container">
         <div class="nav-bar">
-            <span><router-link to="/"  class="link">Ínicio</router-link></span>
+            <span><router-link to="/"  class="link">Início</router-link></span>
             <span><router-link to="/Cardapio" class="link">Cardápio</router-link></span>
-            <span><router-link to="/Localização" class="link">Localização</router-link> </span>
         </div>
     </div>
         
