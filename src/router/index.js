@@ -22,6 +22,11 @@ const router = createRouter({
       name: "CardBebidas",
       component: () => import("../components/CardBebidas.vue"),
     },
+    {
+      path: "/CardDrinks",
+      name: "CardDrinks",
+      component: () => import("../components/CardDrinks.vue"),
+    },
   ],
 });
 

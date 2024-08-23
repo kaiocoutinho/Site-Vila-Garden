@@ -8,15 +8,6 @@
             <div class="card-title"><h1>{{ bebida.cerveja }}</h1></div>
             <div class="card-body">Valor: {{ bebida.valor }} R$</div>
         </div>
-    <div class="bebidas-container">
-        <div class="card" v-for="drink in Drinks" :key="drink.id">
-        <div class="card-title"><h1>{{ drink.name }}</h1></div>
-        <div class="card-body">Descricao: {{ drink.descricao }}</div>
-    </div>
-    </div>
-    <div>
-        
-    </div>
     </div>
 </div>
 </template>
@@ -34,7 +25,6 @@ export default{
     data(){
         return{
             Bebidas,
-            Drinks,
         }
     }
 }
@@ -46,15 +36,18 @@ export default{
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .bebidas-container{
     margin-top: 50px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin: 50px auto;
 }
 .card{
     width: 80%;
@@ -79,7 +72,12 @@ export default{
     font-weight: bold;
 }
 
-@media(width < 600px){
+@media(width < 1300px){
+    .bebidas-container{
+        width: 100%;
+        margin-top: 60px;
+    }
+
     .card{
         width: 90%;
         margin: 0;
