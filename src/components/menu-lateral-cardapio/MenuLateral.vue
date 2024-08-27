@@ -66,7 +66,7 @@ border-bottom: 3px solid green;
     }
     .menu-body{
         display: flex;
-        gap: 50px;
+        gap: 40px;
         flex-direction: row;
         overflow-x: auto;
         min-width: 80px;
@@ -80,6 +80,7 @@ border-bottom: 3px solid green;
     }
 
     
+
 }
 
 

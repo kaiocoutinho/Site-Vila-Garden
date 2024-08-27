@@ -3,6 +3,7 @@
     <div>
     <MenuLateral />
     </div>
+  
     <div class="bebidas-container">
         <div class="card" v-for="(bebida, index) in Bebidas" :key="index">
             <div class="card-title"><h1>{{ bebida.cerveja }}</h1></div>
@@ -15,7 +16,6 @@
 <script>
 
 import Bebidas from '../data/bebidas.json';
-import Drinks from '../data/drinks.json';
 import MenuLateral from './menu-lateral-cardapio/MenuLateral.vue';
 export default{
     name:'CardBebidas',
@@ -25,8 +25,9 @@ export default{
     data(){
         return{
             Bebidas,
+            bebidasShow:false
         }
-    }
+    },
 }
 </script>
 
